@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 72px;
+  }
+
+  body {
+    @apply bg-pastel-bg text-brand-dark font-sans antialiased;
+  }
+
+  ::selection {
+    @apply bg-pastel-lavender text-brand-dark;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-pastel-bg;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-pastel-lavender rounded-full;
+  }
+}
+
+@layer components {
+  /* Section wrapper */
+  .section-wrapper {
+    @apply max-w-6xl mx-auto px-6 py-20;
+  }
+
+  /* Section heading */
+  .section-heading {
+    @apply text-3xl md:text-4xl font-display text-brand-dark font-bold mb-2;
+  }
+
+  /* Gradient pill label */
+  .section-label {
+    @apply inline-block text-xs font-bold tracking-widest uppercase mb-3 px-3 py-1 rounded-full bg-violet-100 text-brand-accent border border-violet-300;
+  }
+
+  /* Card base */
+  .card {
+    @apply bg-white rounded-2xl shadow-card border-2 border-gray-300 p-6 transition-all duration-300 hover:shadow-hover hover:-translate-y-1 hover:border-brand-primary;
+  }
+
+  /* Gradient text */
+  .gradient-text {
+    @apply bg-gradient-to-r from-brand-primary via-brand-accent to-brand-secondary bg-clip-text text-transparent;
+  }
+
+  /* Divider line */
+  .soft-divider {
+    @apply w-16 h-1 rounded-full bg-gradient-to-r from-brand-primary to-brand-accent mb-8;
+  }
+
+  /* Tech badge */
+  .tech-badge {
+    @apply text-xs font-medium px-2.5 py-1 rounded-full bg-pastel-blue text-brand-primary;
+  }
+}
