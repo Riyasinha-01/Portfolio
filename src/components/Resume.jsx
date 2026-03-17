@@ -53,7 +53,6 @@ export default function Resume() {
           <h3 className="text-xl font-bold text-brand-dark mb-2">Riya Sinha — CV / Resume</h3>
           <p className="text-brand-muted text-sm mb-6">
             A concise overview of my skills, projects, certifications, and academic background.
-            Updated 2025.
           </p>
 
           {/*
