@@ -40,7 +40,7 @@ export default function About() {
           >
             <p>
               Hi! I&apos;m <strong className="text-brand-dark">Riya Sinha</strong>, a passionate Computer Science 
-              undergraduate at Lovely Professional University, Phagwara. I specialise in 
+              Engineer at Lovely Professional University, Phagwara. I specialise in 
               <strong className="text-brand-accent"> Artificial Intelligence, Machine Learning, and Full‑Stack Development</strong>.
             </p>
             <p>
