@@ -56,9 +56,7 @@ export default function Hero() {
               variants={fadeUp} initial="hidden" animate="show" custom={3}
               className="text-sm sm:text-base text-brand-dark font-medium leading-relaxed mb-6 max-w-lg mx-auto lg:mx-0"
             >
-              B.Tech CSE student at Lovely Professional University, passionate about building 
-              intelligent AI systems and full-stack applications — from deep learning healthcare 
-              tools to GenAI-powered assistants. Always learning, always building.
+              Computer Science Engineer driven to build intelligent AI systems and scalable full-stack applications — from deep learning solutions in healthcare to GenAI-powered assistants. Focused on solving real-world problems through innovation, continuous learning, and hands-on development.
             </motion.p>
 
             <motion.div
